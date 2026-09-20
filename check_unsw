@@ -1,0 +1,18 @@
+import pandas as pd
+from sklearn.metrics import roc_auc_score
+
+df = pd.read_csv(r".\task5\UNSW_Train.csv")
+
+print("COLUMNS:", df.columns.tolist())
+print("\nTEXT COLUMNS:")
+print(df.dtypes[df.dtypes == "object"])
+
+print("\nDuplicate feature rows:", df.drop(columns=["label"]).duplicated().sum(), "of", len(df))
+
+num = df.select_dtypes("number").drop(columns=["label"])
+single = pd.Series({
+    c: roc_auc_score(df["label"], num[c].fillna(num[c].median()))
+    for c in num.columns
+})
+print("\nSINGLE-COLUMN AUC (distance from 0.5), top 10:")
+print((single - 0.5).abs().sort_values(ascending=False).head(10))

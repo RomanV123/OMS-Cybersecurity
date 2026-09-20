@@ -1,0 +1,11 @@
+,Feature,Importance
+0,android.permission.REQUEST_INSTALL_PACKAGES,-5.5969
+1,android.permission.READ_PHONE_STATE,5.1587
+2,android.permission.android.permission.READ_PHONE_STATE,-4.7923
+3,com.anddoes.launcher.permission.UPDATE_COUNT,-4.7506
+4,com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY,-4.4933
+5,com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE,-4.4831
+6,com.google.android.c2dm.permission.RECEIVE,-4.2781
+7,android.permission.FOREGROUND_SERVICE,-4.1966
+8,android.permission.USE_FINGERPRINT,-3.9239
+9,android.permission.INTERNET,-2.7991

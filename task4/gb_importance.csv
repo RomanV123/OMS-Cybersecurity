@@ -1,0 +1,11 @@
+,Feature,Importance
+0,android.permission.READ_PHONE_STATE,0.6046
+1,com.google.android.c2dm.permission.RECEIVE,0.1994
+2,android.permission.RECEIVE_BOOT_COMPLETED,0.0354
+3,android.permission.INTERNET,0.0279
+4,android.permission.SEND_SMS,0.0167
+5,com.android.launcher.permission.INSTALL_SHORTCUT,0.0165
+6,android.permission.READ_EXTERNAL_STORAGE,0.0115
+7,android.permission.RECEIVE_USER_PRESENT,0.0109
+8,android.permission.ACCESS_FINE_LOCATION,0.0095
+9,android.permission.KILL_BACKGROUND_PROCESSES,0.0092

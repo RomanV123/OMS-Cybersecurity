@@ -1,0 +1,6 @@
+,Feature,Importance
+0,android.permission.READ_PHONE_STATE,0.6132
+1,com.google.android.c2dm.permission.RECEIVE,0.2224
+2,android.permission.RECEIVE_BOOT_COMPLETED,0.071
+3,android.permission.INTERNET,0.0584
+4,android.permission.SEND_SMS,0.0252

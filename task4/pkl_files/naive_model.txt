@@ -1,0 +1,9 @@
+self.train_accuracy_ans = 0.5012
+self.train_recall_ans = 1.0
+self.train_precision_ans = 0.5012
+self.train_fscore_ans = 0.6677
+
+self.test_accuracy_ans = 0.5011
+self.test_recall_ans = 1.0
+self.test_precision_ans = 0.5011
+self.test_fscore_ans = 0.6677
